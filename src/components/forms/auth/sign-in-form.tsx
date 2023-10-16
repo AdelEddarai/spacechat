@@ -158,7 +158,7 @@ export default function SignUpForm() {
           variant="brand"
           loading={loading}
         >
-          Sign in to Chatterbox
+          Sign in to chatspace
         </Button>
 
         <div className="mt-6">
@@ -183,7 +183,7 @@ export default function SignUpForm() {
 
         <div className="mt-6 text-center">
           <p className="text-sm text-neutral-500 dark:text-neutral-400">
-            New to Chatterbox?{" "}
+            New to chatspace?{" "}
             <Link href="/auth/sign-up" className="underline text-blue-500">
               Create an account
             </Link>

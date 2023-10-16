@@ -20,15 +20,15 @@ export const metadata: Metadata = {
     "Pusher",
     "Chat",
     "Realtime",
-    "Chatterbox",
+    "chatspace",
   ],
   authors: [
     {
-      name: "leojuriolli7",
-      url: "https://github.com/leojuriolli7",
+      name: "chatspace",
+      url: "https://chatspace.vercel.app",
     },
   ],
-  creator: "leojuriolli7",
+  creator: "Adel Eddarai",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },

@@ -26,7 +26,7 @@ export default async function AuthLayout({
         />
 
         <h1 className="text-4xl font-bold mt-2 ml-2 text-white absolute lg:-right-[67px] tracking-wide right-2 top-2 site-title-colors">
-          Chatterbox
+          chatspace
         </h1>
       </div>
 

@@ -178,7 +178,7 @@ export default function SignUpForm() {
           variant="brand"
           loading={loading}
         >
-          Sign up to Chatterbox
+          Sign up to chatspace
         </Button>
 
         <div className="mt-6">
