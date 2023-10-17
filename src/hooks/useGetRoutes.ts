@@ -1,4 +1,4 @@
-import { MessagesSquare, LogOut, Users, type LucideIcon } from "lucide-react";
+import { MessageCircle, LogOut, Users2, type LucideIcon } from "lucide-react";
 import { signOut } from "next-auth/react";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
@@ -19,18 +19,29 @@ export default function useGetRoutes() {
       {
         label: "Chat",
         href: "/chats",
-        icon: MessagesSquare,
+        icon: MessageCircle,
         active: pathname?.includes("/chats"),
+        style: {
+          size: "48px",
+          strokeWidth: "0.5px",
+        },
+
+        
       },
       {
         label: "Users",
         href: "/users",
         active: pathname === "/users",
-        icon: Users,
+        icon: Users2,
+        style: {
+          size: "48px",
+          strokeWidth: "0.5px",
+        },
       },
       { label: "Logout", href: "#", onClick: () => signOut(), icon: LogOut },
     ],
     [pathname]
+
   );
 
   return routes;

@@ -19,9 +19,10 @@ export default function Item({
         )}
         href={href}
       >
-        <Icon className="h-6 w-6 shrink-0" />
+        <Icon className="h-6 w-6 shrink-0.5 strokeWidth={0.5}" />
         <span className="sr-only">{label}</span>
       </Link>
     </li>
   );
 }
+

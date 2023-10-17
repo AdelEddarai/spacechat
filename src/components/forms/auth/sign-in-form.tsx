@@ -90,7 +90,7 @@ export default function SignUpForm() {
 
   const signInWithGithub = () => {
     setLoading(true);
-    signIn("github", {
+    signIn("google", {
       redirect: false,
     })
       .then((callback) => {
@@ -109,6 +109,8 @@ export default function SignUpForm() {
         setLoading(false);
       });
   };
+
+  
 
   return (
     <Form {...methods}>

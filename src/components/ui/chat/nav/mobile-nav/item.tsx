@@ -13,14 +13,16 @@ export default function Item({
     <Link
       onClick={onClick}
       className={cn(
-        "group flex gap-x-3 text-sm leading-6 font-semibold w-full justify-center p-4 text-neutral-500 hover:text-black hover:bg-gray-100 dark:hover:text-white dark:hover:bg-neutral-700/60",
+        "py-6 px-6 p-6 rounded-md group flex gap-x-3 text-sm leading-6 font-semibold w-full justify-center text-neutral-500 hover:text-black hover:bg-gray-100 dark:hover:text-white dark:hover:bg-neutral-700/60",
         active &&
-          "bg-gray-100 text-black fill-black dark:bg-neutral-700/60 dark:fill-white dark:text-white"
+          "py-3 rounded-md bg-gray-100 text-black fill-black dark:bg-neutral-700/60 dark:fill-white dark:text-white"
       )}
+      
       href={href}
     >
       <span className="sr-only">{label}</span>
-      <Icon className="h-6 w-6" />
+      <Icon className="h-6 w-6" strokeWidth={0.5} size={32} />
     </Link>
   );
 }
+

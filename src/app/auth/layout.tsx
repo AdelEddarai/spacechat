@@ -21,7 +21,7 @@ export default async function AuthLayout({
           width={64}
           height={64}
           placeholder="blur"
-          alt="Chatterbox"
+          alt="chatspace"
           className="absolute bottom-2 right-2"
         />
 
@@ -37,7 +37,7 @@ export default async function AuthLayout({
             width={64}
             height={64}
             placeholder="blur"
-            alt="Chatterbox"
+            alt="chatspace"
             className="mx-auto sm:hidden block mb-6"
           />
 

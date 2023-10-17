@@ -5,6 +5,8 @@ namespace NodeJS {
     DATABASE_URL: string;
     GITHUB_ID: string;
     GITHUB_SECRET: string;
+    clientId: string;
+    clientSecret: string;
     NEXTAUTH_SECRET: string;
     NEXTAUTH_URL: string;
     UPLOADTHING_SECRET: string;
