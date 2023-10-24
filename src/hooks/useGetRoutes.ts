@@ -1,4 +1,4 @@
-import { MessageCircle, LogOut, Users2, type LucideIcon } from "lucide-react";
+import { Home, MessageCircle, LogOut, Users2, type LucideIcon } from "lucide-react";
 import { signOut } from "next-auth/react";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
@@ -28,6 +28,20 @@ export default function useGetRoutes() {
 
         
       },
+
+      {
+        label: "Home",
+        href: "https://netspace-eta.vercel.app/",
+        icon: Home,
+        active: pathname?.includes("https://netspace-eta.vercel.app/"),
+        style: {
+          size: "48px",
+          strokeWidth: "0.5px",
+        },
+
+        
+      },
+
       {
         label: "Users",
         href: "/users",
